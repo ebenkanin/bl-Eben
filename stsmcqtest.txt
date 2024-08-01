@@ -1,4 +1,4 @@
-1. B
+1. B
 2. G
 3 .J
 4. B
@@ -9,4 +9,18 @@
 9.C
 10.A
 11. D
-[A[A[A[C[C C[B[B[B[C
+Git is a version control system that helps us to track changes we make to our work or a project we might be working on.
+Git is important because of the following reasons.
+It allows us to track and keep all the changes we make to our work. If for one reason or the other, we want to scrap the current version of a project we are working on and roll back to a previous version, git helps us to do that.
+
+It also allows multiple people to work on the same project at the same time. 
+Log in to your account on GitHub. You should be able to see a plus sign with a drop down carrot beside it on the top right hand side of the page. Click it to create a new repository. 
+
+After clicking, you'll be asked to enter the name you wish to give your repository. I recommend you add a Readme file since this will tell anyone accessing your repo about what the repo is about.
+
+next, open git bash and clone the repo by running git clone https://github.com/yourusername/reponame.git
+
+next cd into your repo and create the files you wish to work on. 
+add the file to the staging area using git addfile name
+commit the changes using git commit -myour commit message
+finally push it to your repo using git push
